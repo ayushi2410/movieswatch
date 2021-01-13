@@ -50,9 +50,8 @@ const removeFavouriteMovie=(movie)=>{
 }
   return (
     <div className="container-fluid  movie-app">
-    <h1>Movies</h1>
     <div className="row d-flex align-items-center mt-4 mb-4">
-       <MovieListHeading heading='Watch'/>
+       <MovieListHeading heading='Movies'/>
        <SearchBox searchValue={searchValue} setSearchValue={setSearchValue}/>
     </div>
     <div className="row">
